@@ -1,1 +1,6 @@
+--id, name, description, damage negation, durability
+1,Leather Armor,Light protective armor,5.0,60
+2,Chainmail,Linked metal armor,12.0,100
+3,Plate Armor,Heavy iron armor,20.0,150
+4,Cloak,Soft cloth cloak,2.0,40
 
