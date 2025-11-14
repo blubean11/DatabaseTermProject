@@ -1,1 +1,5 @@
-
+-- ID, Level, Name, Weapon_Equipped_ID, Armor_Equipped_ID, Has_Stat_ID, Is_Class_ID, Is_Race_ID
+1,5,Aerin,1,1,1,1,1
+2,12,Korrin,4,3,2,2,2
+3,20,Lyra,5,2,3,3,3
+4,3,Thorn,2,4,1,1,2
