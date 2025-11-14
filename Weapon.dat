@@ -1,1 +1,7 @@
+--id, name, description, damage type, damage, attackspeed, durability
+1,Iron Sword,Basic steel sword,5,15.0,1.2,100
+2,Fire Wand,Magical staff of flames,1,25.0,0.9,80
+3,Frost Axe,Axe imbued with ice,2,30.0,0.8,120
+4,Shadow Dagger,Small dagger of poison,3,18.0,1.6,60
+5,Thunder Hammer,Hammer of lightning,4,40.0,0.7,150
 
