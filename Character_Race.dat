@@ -1,1 +1,6 @@
+--id, negation, durability, name, description
+1,5.0,100.0,Human,Versatile and adaptable
+2,10.0,120.0,Elf,Agile forest dwellers
+3,15.0,150.0,Orc,Strong and resilient
+4,8.0,110.0,Dwarf,Hardy miners
 
