@@ -1,8 +1,6 @@
 body {
-    display: flex;
-    justify-content: center;
+    display: flex; 
     flex-direction: column;
-    align-items: flex-start;
     align-items: center;
 }
 
@@ -10,7 +8,10 @@ body {
     display: flex;
     margin: 8px;
     margin-top: 100px;
-    gap: 500px;
+    margin-bottom: 100px;
+    gap: 300px;
+    align-items: center;
+    flex: 1;
 }
 
 .classContainer {
@@ -18,6 +19,7 @@ body {
     flex-direction: column;
     text-align: center;
     gap: 100px;
+    flex: 1;
 }
 
 .raceContainer {
@@ -25,4 +27,25 @@ body {
     flex-direction: column;
     text-align: center;
     gap: 100px;
+    flex: 1;
+}
+
+.characterPreview {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 75px;
+}
+
+.attributes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 200px;
+}
+
+.equipmentBlock {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
 }
