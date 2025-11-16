@@ -12,35 +12,68 @@
     <div class="selection">
         <div class="classContainer">
             <p>Choose your starting class</p>
-            <div class="knightClass">
-                <p>The knight class specializes in close quarters combat.</p>
-                <button class="classSelection">Knight</button>
+            <div class="warriorClass">
+                <p>The Knight</p>
+                <button class="classSelection" id="warrior">Warrior</button>
             </div>
             <div class="archerClass">
-                <p>The archer specializes in long range combat</p>
-                <button class="classSelection">Archer</button>
+                <p>The Rogue</p>
+                <button class="classSelection" id="rogue">Rogue</button>
             </div>
             <div class="mageClass">
-                <p>The mage specializes in support and long range combat</p>
-                <button class="classSelection">Mage</button>
+                <p>The Mage</p>
+                <button class="classSelection" id="mage">Mage</button>
+            </div>
+            <div class="paladinClass">
+                <p>The Paladin</p>
+                <button class="classSelection" id="paladin">Paladin</button>
+            </div>
+        </div>
+        <div class="characterPreview">
+            <p><u>Character preview</u></p>
+            <p>Class: </p>
+            <p>Race: </p>
+            <div class="equipmentBlock">
+                <p>Weapon: </p>
+                <p>Armor: </p>
+            </div>
+            <div class="attributes">
+                <div class="statBlock">
+                    <p>Stats</p>
+                    <br>
+                    <p>Level: </p>
+                    <br>
+                    <p>Strength: </p>
+                    <p>Agility: </p>
+                    <p>Intelligence: </p>
+                    <p>Endurance: </p>
+                    <p>Arcane: </p>
+                    <p>Faith: </p>
+                    <p>Race resistance: </p>
+                </div>
             </div>
         </div>
         <div class="raceContainer">
             <p>Choose your race</p>
             <div class="humanRace">
-                <p>Human's have average resistance</p>
-                <button class="raceSelection">Human</button>
+                <p>Human</p>
+                <button class="raceSelection" id="human">Human</button>
             </div>
             <div class="dwarfRace">
-                <p>Dwarves have high physical resistance</p>
-                <button class="raceSelection">Dwarf</button>
+                <p>Dwarf</p>
+                <button class="raceSelection" id="dwarf">Dwarf</button>
             </div>
             <div class="elfRace">
-                <p>Elves have high magic resistance</p>
-                <button class="raceSelection">Elf</button>
+                <p>Elf</p>
+                <button class="raceSelection" id="elf">Elf</button>
+            </div>
+            <div class="orcRace">
+                <p>Orc</p>
+                <button class="raceSelection" id="orc">Orc</button>
             </div>
         </div>
     </div>
+    <button id="createCharacter">Create character</button>
 
     <script src="script.js"></script>
 </body>
