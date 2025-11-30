@@ -7,14 +7,14 @@ body {
 .selection {
     display: flex;
     margin: 8px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
     gap: 300px;
     align-items: center;
     flex: 1;
 }
 
-.classContainer {
+#classContainer {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -22,7 +22,7 @@ body {
     flex: 1;
 }
 
-.raceContainer {
+#raceContainer {
     display: flex;
     flex-direction: column;
     text-align: center;
