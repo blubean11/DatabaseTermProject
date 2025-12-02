@@ -1,0 +1,26 @@
+{
+  "name": "databasetermproject",
+  "version": "1.0.0",
+  "description": "This project exists for HTML and SQL files for a rough concept of a fantasy game.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blubean11/DatabaseTermProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/blubean11/DatabaseTermProject/issues"
+  },
+  "homepage": "https://github.com/blubean11/DatabaseTermProject#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "mysql2": "^3.15.3"
+  }
+}
